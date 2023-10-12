@@ -10,12 +10,6 @@ def file_name():
         "number": "number_path",
     }
 
-    print(file_structure)
-
-    file_structure.pop("name")
-
-    print(file_structure)
-
 
 if __name__ == '__main__':
     file_name()
